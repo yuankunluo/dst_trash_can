@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="trashcan/images">
+        <file id="0" name="trashcan/images/trashcan_02.png" width="152" height="256" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="trashcan/images/trashcan_04.png" width="221" height="203" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="trashcan/images/trashcan_03.png" width="221" height="53" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="trashcan/flame_1">
+        <file id="0" name="trashcan/flame_1/flame_a_0006.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="trashcan/flame_1/flame_a_0005.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="trashcan/flame_1/flame_a_0004.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="trashcan/flame_1/flame_a_0002.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="trashcan/flame_1/flame_a_0001.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="trashcan">
+        <file id="0" name="trashcan/new_design_01.png" width="376" height="768" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="trashcan/new_design_04.png" width="646" height="556" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="trashcan/new_design_02.png" width="648" height="212" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="trashcan">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="trashcan_04" folder="0" file="1" abs_x="-89" abs_y="0.666667" abs_pivot_x="0" abs_pivot_y="1" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="new_design_04" folder="2" file="1" abs_x="-91.280504" abs_y="194.423333" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="new_design_02" folder="2" file="2" abs_x="-94.21817" abs_y="274.857138" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="trashcan_04">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-89" y="0.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="new_design_04">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-91.280504" y="194.423333" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="new_design_02">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-94.21817" y="274.857138" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="open" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="trashcan_04" folder="0" file="1" abs_x="-89" abs_y="0.666667" abs_pivot_x="0" abs_pivot_y="1" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="new_design_04" folder="2" file="1" abs_x="-91.280504" abs_y="194.423333" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="new_design_02" folder="2" file="2" abs_x="19.134272" abs_y="237.059266" abs_pivot_x="0.271465" abs_pivot_y="0.399054" abs_angle="334.840496" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="trashcan_04">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-89" y="0.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="new_design_04">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-91.280504" y="194.423333" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="new_design_02">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="19.134272" y="237.059266" pivot_x="0.271465" pivot_y="0.399054" angle="334.840496" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="burn" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="trashcan_04" folder="0" file="1" abs_x="-89" abs_y="0.666667" abs_pivot_x="0" abs_pivot_y="1" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="new_design_04" folder="2" file="1" abs_x="-91.280504" abs_y="194.423333" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="new_design_02" folder="2" file="2" abs_x="18.120405" abs_y="192.096825" abs_pivot_x="0.295068" abs_pivot_y="0.335082" abs_angle="360" abs_scale_x="0.587533" abs_scale_y="0.587108" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="75">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="171">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="324">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="4" time="451">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="5" time="541">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+                <key id="6" time="648">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="6" z_index="2"/>
+                </key>
+                <key id="7" time="755">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="7" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="trashcan_04">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-89" y="0.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="new_design_04">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-91.280504" y="194.423333" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="new_design_02">
+                <key id="0" spin="-1">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="1" time="75">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="352.631885" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="2" time="171" spin="-1">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="11.577642" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="3" time="324">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="350.935958" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="4" time="451" spin="-1">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="6.509726" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="5" time="541">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="350.617722" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="6" time="648" spin="-1">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="6.97354" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+                <key id="7" time="755">
+                    <object folder="2" file="2" x="18.120405" y="192.096825" pivot_x="0.295068" pivot_y="0.335082" angle="350.724344" scale_x="0.587533" scale_y="0.587108"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
