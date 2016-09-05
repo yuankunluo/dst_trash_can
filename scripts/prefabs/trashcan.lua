@@ -91,8 +91,15 @@ local function onignite(inst,data)
           else
               item_count = 1
           end
-          local removed inst.components.container:RemoveItemBySlot(i)
 
+          -- remove items first
+          local remove_item = inst.components.container:RemoveItemBySlot(i)
+          if remove_item ~= nil then
+            item:Remove()
+          end
+
+
+          -- add ashes
           for j = 1, item_count do
             local ash = SpawnPrefab("ash")
             if ash ~= nil then
