@@ -2,7 +2,7 @@
 name = "Trash Can"
 description = "You are tired of so many trash, but no room for them and dont want to see them. \nJust put them in this trash can and use torch ignite it, all things will gone and turn into ashes.\nEven gold! Burn, Burn everything!"
 author = "ykl"
-version = "2.1"
+version = "2.2"
 
 api_version = 10
 dst_compatible = true

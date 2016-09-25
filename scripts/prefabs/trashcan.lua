@@ -233,5 +233,5 @@ local function fn()
     return inst
 end
 
-return Prefab( "common/trashcan", fn, assets, prefabs),
+return Prefab( "common/trashcan", fn, assets),
         MakePlacer( "common/trashcan_placer", "trashcan", "trashcan", "idle" )
